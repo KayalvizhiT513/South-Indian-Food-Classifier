@@ -1,2 +1,4 @@
 # South-Indian-Food-Classifier
  Food image classification using PyTorch and ResNet-50. Transfer learning, unfreezing last layer, predicting 3 classes. Visualizing results.
+
+This project is an image classification task using PyTorch and transfer learning with a pre-trained ResNet-50 model. The goal is to classify food items based on their images. The code loads a dataset of food images, splits it into training and testing sets, and fine-tunes the ResNet-50 model by unfreezing the last layer and modifying it to predict three classes. The model is trained using the Adam optimizer and cross-entropy loss. The accuracy on the test set is printed, and for a few test images, the actual and predicted labels are displayed along with the images for visual inspection. This project leverages transfer learning to benefit from the pre-trained ResNet-50 model's features while adapting it to the specific food classification task.
